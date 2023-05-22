@@ -22,7 +22,7 @@
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
-                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                android:background="@color/orange_500"
                 app:contentInsetStartWithNavigation="0dp"
                 app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
@@ -52,9 +52,9 @@
                         android:layout_width="?attr/actionBarSize"
                         android:layout_height="?attr/actionBarSize"
                         android:background="@android:color/transparent"
-                        android:tint="@android:color/white"
                         android:visibility="visible"
-                        app:srcCompat="@drawable/ic_close" />
+                        app:srcCompat="@drawable/ic_close"
+                        app:tint="@android:color/white" />
 
                 </LinearLayout>
 
