@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
+import com.festuskerich.africanwisdom.R;
 import com.festuskerich.africanwisdom.auth.data.LoginRepository;
 import com.festuskerich.africanwisdom.auth.data.Result;
 import com.festuskerich.africanwisdom.auth.data.model.LoggedInUser;
-import com.festuskerich.africanwisdom.auth.R;
 
 public class LoginViewModel extends ViewModel {
 
